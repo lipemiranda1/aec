@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construa seu Lar - Casas Pré-Moldadas | A&R Casa Nova</title>
+    <meta name="description" content="Construa o seu lar com segurança, rapidez e qualidade garantida. Kits de casas pré-moldadas adaptáveis ao seu lote. Solicite um orçamento.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configuração de Cores Customizadas (Opcional) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            600: '#0284c7', // Azul principal
+                            900: '#0c4a6e', // Azul escuro
+                        },
+                        action: {
+                            500: '#f97316', // Laranja para botões de conversão
+                            600: '#ea580c',
+                        },
+                        whatsapp: '#25D366'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Simulador Google Tag Manager -->
+    <script>
+        // Inicialização do dataLayer
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        
+        // Simulação do Snippet do GTM (Substitua pelo seu código real no Head)
+        // (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        // new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        // j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        // 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        // })(window,document,'script','dataLayer','GTM-XXXXXXX');
+    </script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50 flex flex-col min-h-screen">
+
+    <header class="absolute top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex-shrink-0 flex items-center">
+                <!-- Placeholder para "WhatsApp Image 2026-07-07 at 07.26.37 (1).jpeg" -->
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    </div>
+                    <span class="font-bold text-xl text-brand-900 tracking-tight hidden sm:block">A&R Casa Nova</span>
+                </div>
+            </div>
+            
+            <!-- Botão Fale com um Especialista -->
+            <div>
+                <a href="https://wa.me/5531995204570?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20um%20especialista%20sobre%20casas%20pr%C3%A9-moldadas." 
+                   onclick="trackWhatsAppClick('header_button')"
+                   class="inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-semibold rounded-md text-brand-600 bg-brand-50 hover:bg-brand-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500 shadow-sm">
+                    Fale com um Especialista
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Primeira Dobra - A Promessa e Captura -->
+    <main class="flex-grow pt-20">
+        <section class="relative bg-gray-900">
+            <!-- Imagem de Fundo (Placeholder para WhatsApp Image 2026-07-06 at 13.55.12.jpeg) -->
+            <div class="absolute inset-0">
+                <img class="w-full h-full object-cover opacity-40" 
+                     src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+                     alt="Construção de Casa Pré-moldada">
+                <div class="absolute inset-0 bg-gradient-to-r from-brand-900/90 to-gray-900/70"></div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                    
+                    <!-- Textos e Promessa -->
+                    <div class="lg:col-span-7 text-center lg:text-left mb-10 lg:mb-0">
+                        <span class="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-100 text-sm font-semibold tracking-wider mb-4 border border-brand-400/30">CONSTRUÇÃO INTELIGENTE</span>
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+                            Construa o Seu Lar com <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-action-500">Segurança, Rapidez</span> e Qualidade Garantida.
+                        </h1>
+                        <p class="mt-4 text-lg sm:text-xl text-gray-300 font-medium max-w-3xl mx-auto lg:mx-0">
+                            Da fundação à chave na mão. Conheça nossos kits de casas pré-moldadas adaptáveis ao seu lote. 
+                            Economize tempo e dinheiro sem dores de cabeça com obras tradicionais.
+                        </p>
+                        
+                        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                            <div class="flex items-center text-white/90">
+                                <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Obras no Prazo
+                            </div>
+                            <div class="flex items-center text-white/90">
+                                <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Contrato Seguro
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulário de Captura -->
+                    <div class="lg:col-span-5">
+                        <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 relative">
+                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-action-500 text-white px-4 py-1 rounded-full text-sm font-bold shadow-md whitespace-nowrap">
+                                Orçamento Gratuito
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center mt-2">Dê o primeiro passo hoje</h3>
+                            
+                            <form id="leadForm" class="space-y-4" onsubmit="handleFormSubmit(event)">
+                                <div>
+                                    <label for="nome" class="block text-sm font-medium text-gray-700">Nome Completo</label>
+                                    <input type="text" id="nome" name="nome" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500 py-3 px-4 bg-gray-50 border" placeholder="João da Silva">
+                                </div>
+
+                                <div>
+                                    <label for="whatsapp" class="block text-sm font-medium text-gray-700">WhatsApp</label>
+                                    <input type="tel" id="whatsapp" name="whatsapp" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500 py-3 px-4 bg-gray-50 border" placeholder="(31) 90000-0000">
+                                </div>
+
+                                <div>
+                                    <label for="kit" class="block text-sm font-medium text-gray-700">Qual kit você tem interesse?</label>
+                                    <select id="kit" name="kit" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500 py-3 px-4 bg-gray-50 border text-gray-700">
+                                        <option value="" disabled selected>Selecione uma opção...</option>
+                                        <option value="bruto">Kit Bruto</option>
+                                        <option value="semi-pronto">Kit Semi-Pronto</option>
+                                        <option value="chave">Kit Casa na Chave</option>
+                                        <option value="ainda-nao-sei">Ainda não sei, quero consultoria</option>
+                                    </select>
+                                </div>
+
+                                <button type="submit" class="w-full flex justify-center py-3.5 px-4 border border-transparent rounded-md shadow-lg text-lg font-bold text-white bg-action-500 hover:bg-action-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-action-500 transition-all transform hover:-translate-y-0.5 mt-2">
+                                    Solicitar Orçamento Agora
+                                </button>
+                                
+                                <p class="text-xs text-center text-gray-500 mt-3">Seus dados estão 100% seguros. Não enviamos spam.</p>
+                            </form>
+                            
+                            <!-- Mensagem de Sucesso (Oculta por padrão) -->
+                            <div id="successMessage" class="hidden absolute inset-0 bg-white rounded-xl flex-col items-center justify-center p-8 text-center z-10">
+                                <svg class="w-16 h-16 text-green-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <h4 class="text-2xl font-bold text-gray-900 mb-2">Solicitação Enviada!</h4>
+                                <p class="text-gray-600 mb-6">Recebemos seus dados. Um de nossos especialistas entrará em contato via WhatsApp em breve.</p>
+                                <button onclick="resetForm()" class="text-brand-600 font-semibold hover:underline">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Segunda Dobra - Autoridade e Confiança -->
+        <section class="bg-white border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 items-center divide-y lg:divide-y-0 lg:divide-x divide-gray-100">
+                    
+                    <!-- Dados da Empresa (Gatilho de Segurança) -->
+                    <div class="flex flex-col items-center lg:items-start lg:pl-4">
+                        <div class="flex items-center text-brand-900 mb-2">
+                            <svg class="w-6 h-6 mr-2 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            <span class="font-bold text-lg">Empresa Registrada</span>
+                        </div>
+                        <span class="text-gray-600 font-mono">CNPJ: 66.985.992/0001-61</span>
+                        <a href="tel:+5531995204570" class="text-brand-600 font-semibold mt-1 hover:underline">Atendimento: (31) 99520-4570</a>
+                    </div>
+
+                    <!-- Bullet 1 -->
+                    <div class="flex flex-col items-center text-center lg:px-4 pt-6 lg:pt-0">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-3">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900">Obras entregues no prazo</h4>
+                        <p class="text-sm text-gray-500 mt-1">Cronograma rigoroso sem atrasos.</p>
+                    </div>
+
+                    <!-- Bullet 2 -->
+                    <div class="flex flex-col items-center text-center lg:px-4 pt-6 lg:pt-0">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-3">
+                            <svg class="w-6 h-6 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900">Materiais de 1ª linha</h4>
+                        <p class="text-sm text-gray-500 mt-1">Garantia de durabilidade e segurança estrutural.</p>
+                    </div>
+
+                    <!-- Bullet 3 -->
+                    <div class="flex flex-col items-center text-center lg:px-4 pt-6 lg:pt-0">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-3">
+                            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900">Transparência total</h4>
+                        <p class="text-sm text-gray-500 mt-1">Valores claros desde o orçamento até a entrega.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Terceira Dobra - Nossos Kits e Valores -->
+        <section id="kits" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl font-extrabold text-brand-900 sm:text-4xl">Nossos Kits e Valores</h2>
+                    <p class="mt-4 text-lg text-gray-600">Projetos adaptáveis ao seu orçamento. Compare o que está incluso em cada etapa e escolha a melhor opção para você construir sem surpresas.</p>
+                </div>
+
+                <!-- Tabela Responsiva / Grid de Cards -->
+                <div class="grid lg:grid-cols-3 gap-8">
+                    
+                    <!-- Kit Bruto -->
+                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
+                        <div class="p-6 bg-gray-50 border-b border-gray-100 text-center">
+                            <h3 class="text-2xl font-bold text-gray-900">Kit Bruto</h3>
+                            <div class="mt-4 flex justify-center items-baseline text-4xl font-extrabold text-brand-600">
+                                1.150 <span class="ml-1 text-xl font-medium text-gray-500">MT</span>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Paredes montadas e rejuntadas</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Telhado colonial com embocamento</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Piso grosso</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Janelas e portas de madeira (internas pranchetas)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Kit Semi-Pronto (Destaque) -->
+                    <div class="bg-white rounded-2xl shadow-xl border-2 border-brand-500 overflow-hidden transform lg:-translate-y-4 flex flex-col relative">
+                        <div class="absolute top-0 inset-x-0 bg-brand-500 text-white text-xs font-bold uppercase tracking-wider text-center py-1">
+                            Mais Escolhido
+                        </div>
+                        <div class="p-6 bg-brand-50 border-b border-brand-100 text-center mt-4">
+                            <h3 class="text-2xl font-bold text-gray-900">Kit Semi-Pronto</h3>
+                            <div class="mt-4 flex justify-center items-baseline text-4xl font-extrabold text-brand-600">
+                                1.450 <span class="ml-1 text-xl font-medium text-gray-500">MT</span>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                                    <span class="ml-3 font-semibold text-brand-900">Tudo do Kit Bruto +</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Instalação hidráulica e elétrica</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Ferragens das portas e janelas instaladas</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Calçada ao redor da casa <span class="text-xs text-gray-400 block">(caso não haja varanda)</span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Kit Casa na Chave -->
+                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
+                        <div class="p-6 bg-gray-50 border-b border-gray-100 text-center">
+                            <h3 class="text-2xl font-bold text-gray-900">Kit Casa na Chave</h3>
+                            <div class="mt-4 flex justify-center items-baseline text-4xl font-extrabold text-brand-600">
+                                2.050 <span class="ml-1 text-xl font-medium text-gray-500">MT</span>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                                    <span class="ml-3 font-semibold text-brand-900">Tudo do Semi-Pronto +</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Cerâmica</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600">Pintura interna e externa</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="flex-shrink-0 h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span class="ml-3 text-gray-600 font-bold text-brand-700">Banheiro com acabamento e louças. Pronta para morar!</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="https://wa.me/5531995204570?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20Kits%20de%20constru%C3%A7%C3%A3o." 
+                       onclick="trackWhatsAppClick('kits_section')"
+                       class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-whatsapp hover:bg-green-500 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.333 4.993L2 22l5.233-1.237a9.994 9.994 0 004.779 1.217h.004c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.037-5.176-2.926-7.066a9.957 9.957 0 00-7.067-2.93zm0 18.293c-1.583 0-3.134-.425-4.496-1.232l-.323-.192-3.344.79.799-3.26-.21-.334a8.297 8.297 0 01-1.267-4.407c.001-4.57 3.72-8.289 8.294-8.289 2.215 0 4.298.863 5.864 2.43a8.272 8.272 0 012.428 5.866c-.001 4.572-3.721 8.292-8.293 8.292zm4.542-6.198c-.249-.125-1.472-.726-1.7-.81-.228-.083-.394-.124-.56.125-.165.25-.643.81-.788.975-.145.166-.29.187-.538.063-.25-.125-1.05-.388-2.001-1.24-.74-.66-1.24-1.475-1.385-1.725-.146-.25-.015-.384.11-.508.112-.112.25-.292.374-.438.125-.146.166-.25.25-.417.083-.167.042-.313-.021-.438-.063-.125-.56-1.354-.766-1.854-.2-.486-.403-.42-.56-.427-.145-.006-.312-.006-.478-.006a.91.91 0 00-.663.312c-.228.25-.87.854-.87 2.083 0 1.23.89 2.417 1.015 2.583.124.167 1.764 2.69 4.27 3.771.597.257 1.063.411 1.428.526.598.19 1.141.163 1.57.1.477-.07 1.472-.6 1.68-1.18.207-.58.207-1.077.145-1.18-.062-.104-.228-.167-.478-.292z"></path></svg>
+                        Quero saber mais sobre os Kits
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Quarta Dobra - Etapas de Construção -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-extrabold text-brand-900 sm:text-4xl">Como Funciona Nosso Método</h2>
+                    <p class="mt-4 text-lg text-gray-600">Um processo transparente de ponta a ponta para tirar o peso das suas costas.</p>
+                </div>
+
+                <div class="relative">
+                    <!-- Linha Conectora (Desktop) -->
+                    <div class="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-gray-200" aria-hidden="true"></div>
+                    
+                    <div class="relative grid grid-cols-1 md:grid-cols-4 gap-10">
+                        <!-- Step 1 -->
+                        <div class="relative text-center">
+                            <div class="w-24 h-24 mx-auto bg-brand-50 rounded-full border-4 border-white shadow-md flex items-center justify-center relative z-10">
+                                <span class="text-3xl font-extrabold text-brand-600">1</span>
+                            </div>
+                            <h3 class="mt-6 text-xl font-bold text-gray-900">Orçamento</h3>
+                            <p class="mt-2 text-gray-600">Você escolhe o kit, nos fala sobre o seu terreno e enviamos uma proposta transparente.</p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="relative text-center">
+                            <div class="w-24 h-24 mx-auto bg-brand-50 rounded-full border-4 border-white shadow-md flex items-center justify-center relative z-10">
+                                <span class="text-3xl font-extrabold text-brand-600">2</span>
+                            </div>
+                            <h3 class="mt-6 text-xl font-bold text-gray-900">Visita Técnica</h3>
+                            <p class="mt-2 text-gray-600">Nossa equipe avalia o local para garantir que tudo sairá perfeitamente como planejado.</p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="relative text-center">
+                            <div class="w-24 h-24 mx-auto bg-brand-50 rounded-full border-4 border-white shadow-md flex items-center justify-center relative z-10">
+                                <span class="text-3xl font-extrabold text-brand-600">3</span>
+                            </div>
+                            <h3 class="mt-6 text-xl font-bold text-gray-900">Execução</h3>
+                            <p class="mt-2 text-gray-600">Iniciamos a montagem das estruturas pré-moldadas de forma rápida, limpa e segura.</p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="relative text-center">
+                            <div class="w-24 h-24 mx-auto bg-brand-50 rounded-full border-4 border-white shadow-md flex items-center justify-center relative z-10">
+                                <span class="text-3xl font-extrabold text-brand-600">4</span>
+                            </div>
+                            <h3 class="mt-6 text-xl font-bold text-gray-900">Entrega</h3>
+                            <p class="mt-2 text-gray-600">Sua casa nova pronta no prazo estipulado. As chaves na sua mão sem dores de cabeça.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. Rodapé (Footer) e Políticas -->
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                
+                <!-- Logo e Infos -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                        </div>
+                        <span class="font-bold text-xl text-white tracking-tight">A&R Casa Nova</span>
+                    </div>
+                    <p class="text-sm text-gray-400">Construções inteligentes e casas pré-moldadas com qualidade, rapidez e segurança.</p>
+                </div>
+
+                <!-- Contatos -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contato Oficial</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Atendimento via WhatsApp:</li>
+                        <li><a href="tel:+5531995204570" class="text-brand-400 hover:text-white transition-colors">(31) 99520-4570</a></li>
+                    </ul>
+                </div>
+
+                <!-- Empresa -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Empresa Registrada</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Razão Social: A&R CASA NOVA PREMOLDADOS LTDA</li>
+                        <li>CNPJ: <span class="font-mono text-brand-400">66.985.992/0001-61</span></li>
+                        <li>Construção Civil & Materiais.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2026 A&R Casa Nova Premoldados. Todos os direitos reservados.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition-colors">Política de Privacidade</a>
+                    <a href="#" class="hover:text-white transition-colors">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5531995204570?text=Ol%C3%A1%2C%20vi%20o%20an%C3%BAncio%20no%20Google%20e%20tenho%20interesse%20nos%20kits%20de%20casas%20pr%C3%A9-moldadas." 
+       onclick="trackWhatsAppClick('floating_button')"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="fixed bottom-6 right-6 z-50 bg-whatsapp text-white p-4 rounded-full shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] hover:scale-110 transition-all duration-300 flex items-center justify-center group"
+       aria-label="Falar no WhatsApp">
+        <!-- Ping Animation -->
+        <span class="absolute inline-flex h-full w-full rounded-full bg-whatsapp opacity-20 group-hover:animate-ping"></span>
+        <svg class="w-8 h-8 relative z-10" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.333 4.993L2 22l5.233-1.237a9.994 9.994 0 004.779 1.217h.004c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.037-5.176-2.926-7.066a9.957 9.957 0 00-7.067-2.93zm0 18.293c-1.583 0-3.134-.425-4.496-1.232l-.323-.192-3.344.79.799-3.26-.21-.334a8.297 8.297 0 01-1.267-4.407c.001-4.57 3.72-8.289 8.294-8.289 2.215 0 4.298.863 5.864 2.43a8.272 8.272 0 012.428 5.866c-.001 4.572-3.721 8.292-8.293 8.292zm4.542-6.198c-.249-.125-1.472-.726-1.7-.81-.228-.083-.394-.124-.56.125-.165.25-.643.81-.788.975-.145.166-.29.187-.538.063-.25-.125-1.05-.388-2.001-1.24-.74-.66-1.24-1.475-1.385-1.725-.146-.25-.015-.384.11-.508.112-.112.25-.292.374-.438.125-.146.166-.25.25-.417.083-.167.042-.313-.021-.438-.063-.125-.56-1.354-.766-1.854-.2-.486-.403-.42-.56-.427-.145-.006-.312-.006-.478-.006a.91.91 0 00-.663.312c-.228.25-.87.854-.87 2.083 0 1.23.89 2.417 1.015 2.583.124.167 1.764 2.69 4.27 3.771.597.257 1.063.411 1.428.526.598.19 1.141.163 1.57.1.477-.07 1.472-.6 1.68-1.18.207-.58.207-1.077.145-1.18-.062-.104-.228-.167-.478-.292z"></path></svg>
+    </a>
+
+    <script>
+        // Função de envio do formulário e disparo de evento "Lead"
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Impede o recarregamento da página
+
+            const form = event.target;
+            const nome = form.nome.value;
+            const whatsapp = form.whatsapp.value;
+            const kit = form.kit.value;
+
+            // 1. Dispara o evento de Lead no DataLayer do Google Tag Manager
+            window.dataLayer.push({
+                'event': 'generate_lead',
+                'form_name': 'orcamento_hero',
+                'lead_kit_interesse': kit
+            });
+            console.log("Evento de Lead disparado no DataLayer!", { nome, whatsapp, kit });
+
+            // 2. Exibe mensagem de sucesso visual na tela
+            document.getElementById('successMessage').classList.remove('hidden');
+            document.getElementById('successMessage').classList.add('flex');
+
+            // 3. (Opcional) Redirecionar para o WhatsApp automaticamente com os dados preenchidos
+            // Descomente o código abaixo se quiser que o formulário mande a pessoa direto pro zap após preencher:
+            /*
+            setTimeout(() => {
+                const text = `Olá, me chamo ${nome}. Preenchi o formulário no site e tenho interesse no ${kit}.`;
+                const zapLink = `https://wa.me/5531995204570?text=${encodeURIComponent(text)}`;
+                window.open(zapLink, '_blank');
+            }, 1500);
+            */
+        }
+
+        // Função para resetar o formulário visualmente
+        function resetForm() {
+            document.getElementById('leadForm').reset();
+            document.getElementById('successMessage').classList.add('hidden');
+            document.getElementById('successMessage').classList.remove('flex');
+        }
+
+        // Função para rastrear os cliques nos botões de WhatsApp
+        function trackWhatsAppClick(buttonLocation) {
+            // Dispara o evento de Contato via WhatsApp separadamente do evento de Lead
+            window.dataLayer.push({
+                'event': 'click_whatsapp',
+                'button_location': buttonLocation
+            });
+            console.log("Evento de Clique WhatsApp disparado!", buttonLocation);
+        }
+    </script>
+</body>
+</html>
